@@ -1,0 +1,93 @@
+*{
+margin: 0;
+font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --bg-color: #E7E7E7;
+    --txt-color: #828282;
+    --bg-section-color: #FFFFFF;
+    --blu-btn-color: #6358DC;
+    --red-btn-color: #DA5959;
+    --grn-btn-color: #59DAA4;
+    --yellow-btn-color: #FFC444;
+    --lgo-color: #6358DC;
+    --error-red: red;
+    --sh:#2F2F2F;
+    --shadow:rgba(0, 0, 0, 0.1);
+    --blk-txt:black;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--txt-color);
+}
+
+.dark-mode {
+    --bg-color: #505050;
+    --txt-color: #ffffff;
+    --bg-section-color: rgb(65, 64, 64);
+    --sh:#d1d1d1;
+    --shadow:rgba(255, 255, 255, 0.1);
+    --blk-txt:white;
+}
+
+
+/* ################# header ################# */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: var(--bg-section-color );
+    border-bottom: 1px solid var(--bg-color);
+    position: static;
+    margin: 0 0 50px 0;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.Logo {
+    color: var(--lgo-color);
+    font-size: 28px;
+    font-weight: 900;
+    
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 15px;
+    font-size: 12px;
+    font-weight: 550;
+}
+
+#selected {
+  color: var(--lgo-color);
+  pointer-events: none;
+  
+}
+.nav-links a {
+    text-decoration: none;
+    color: var(--txt-color);
+}
+
+.navbar-right{
+  font-size: 12px;
+}
+
+#separator{
+    margin: 0px 7px;
+    background-color: var(--txt-color);
+    padding: 0 .5px;
+}
+
+/* ################# end header ################# */
+
+

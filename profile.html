@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TodoApp</title>
+    <link rel="stylesheet" href="./assets/Styles/Main.css" />
+    <link rel="stylesheet" href="./assets/Styles/profile.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <nav class="navbar">
+      <div class="navbar-left">
+        <h1 class="Logo">TodoApp</h1>
+        <ul class="nav-links"></ul>
+      </div>
+      <div class="navbar-right">
+        <span id="login-time">time and date</span>
+      </div>
+    </nav>
+    <!-- header -->
+
+    <!-- content -->
+    <div class="container">
+      <div class="profile-card">
+        <div class="profile-info">
+          <img
+            src="./assets/Img/avatar.png"
+            alt="User Image"
+            class="profile-image"
+          />
+          <div id="Data">
+            <p>Business Analyst</p>
+          </div>
+        </div>
+        <div class="theme-settings">
+          <h5>Change Theme Color</h5>
+          <button id="dark-mode" class="theme-btn"></button>
+          <button id="light-mode" class="theme-btn"></button>
+        </div>
+      </div>
+
+      <!-- Task Box for Current and Completed Tasks -->
+<div class="timer-box">
+  <h3>Sign in / Sign out :</h3>
+  <div class="task-box">
+    <span id="timer-display">00:00</span>
+    <div id="start-work">
+      <button class="btn" id="start-work-btn">Start Work</button>
+      <button class="btn hide" id="take-break-btn" >Take Break</button>
+      <button class="btn hide" id="complete" >Finish Work</button>
+    </div>
+  </div>
+</div>
+
+
+    <!-- end content -->
+
+    <!-- scripts -->
+    <script src="./assets/Scripts/main.js"></script>
+    <script src="./assets/scripts/profile.js"></script>
+
+    <!-- end scripts -->
+  </body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TodoApp</title>
+    <link rel="stylesheet" href="./assets/Styles/Main.css" />
+    <link rel="stylesheet" href="./assets/Styles/login.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <nav class="navbar">
+      <div class="navbar-left">
+        <h1 class="Logo">TodoApp</h1>
+        <ul class="nav-links"></ul>
+      </div>
+      <div class="navbar-right"></div>
+    </nav>
+    <!-- header -->
+
+    <!-- content -->
+    <div class="container">
+      <div class="image-container">
+        <img src="./assets/img/Illustration.png" alt="illustration" />
+      </div>
+      <div class="login-form-container">
+                  <p>
+            <span class="welcome">Welcome to</span>
+            <span class="todoapp">TodoApp</span>
+          </p>
+        <form  id="login-form" method="POST" >
+          <div class="form-inputs">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email address"
+              autocomplete="username"
+            />
+            <div id="email-error" class="error-message"></div>
+          </div>
+          <div class="form-inputs">
+            <label for="fullname">Full Name</label>
+            <input
+              type="text"
+              id="fullname"
+              name="fullname"
+              placeholder="Enter your full name"
+            />
+            <div id="name-error" class="error-message"></div>
+          </div>
+          <div class="form-inputs">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter Your Password"
+              autocomplete="current-password"
+            />
+            <button
+              type="button"
+              class="toggle-password"
+              onclick="togglePassword()"
+            >
+              <i class="fas fa-eye"></i>
+            </button>
+            <div id="password-error" class="error-message"></div>
+          </div>
+          <button class="form-button" type="submit">Login</button>
+        </form>
+        <p>Don’t have an account?<a href="#">Register</a></p>
+      </div>
+    </div>
+
+    <!-- end content -->
+
+    <!-- scripts -->
+    <script src="./assets/Scripts/main.js"></script>
+    <script src="./assets/Scripts/login.js"></script>
+
+    <!-- end scripts -->
+  </body>
+</html>

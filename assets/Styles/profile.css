@@ -1,0 +1,89 @@
+.theme-btn {
+  width: 40px;
+  height: 40px;
+  margin: 14px 12px;
+  border-radius: 7px;
+}
+#dark-mode {
+  background-color: #505050;
+  border: 1px solid #505050;
+}
+
+#light-mode {
+  background-color: #e7e7e7;
+  border: 1px solid #e7e7e7;
+}
+.container {
+  padding: 50px 60px;
+  background-color: var(--bg-section-color);
+  border-radius: 10px;
+  margin: 0 280px;
+  height: 480px;
+}
+.profile-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#Data h3 {
+  color: var(--blu-btn-color);
+  font-size: 26px;
+  margin: 0 0 6px 0;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile-image {
+  width: 104px;
+  border-radius: 50%;
+  margin: 0 20px 0 0;
+  border: 1px solid var(--shadow);
+}
+
+/* Task box styles */
+
+.timer-box {
+  margin-top: 60px;
+  padding: 20px;
+  color: var(--blk-txt);
+}
+.task-box {
+  margin-top: 20px;
+  display: flex;
+  gap: 200px;
+  align-items: center;
+}
+.task-box span {
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.btn {
+  margin-right: 10px;
+  border: none;
+  padding: 21px;
+  font-size: 16px;
+  font-weight: 550;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.1s, color 0.3s;
+  color: var(--bg-section-color);
+}
+#take-break-btn {
+  background-color: var(--yellow-btn-color);
+}
+
+#start-work-btn {
+  background-color: var(--blu-btn-color);
+}
+
+#complete {
+  background-color: var(--grn-btn-color);
+}
+.hide{
+  display: none;
+}

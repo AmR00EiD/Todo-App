@@ -1,0 +1,109 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin: 0 0 50px 0;
+}
+
+
+.welcome {
+    color:var(--sh);
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.todoapp {
+    color: var(--blu-btn-color);
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+
+.login-form-container {
+    background-color: var(--bg-section-color);
+    border-radius: 6px;
+    padding: 22px 35px;
+    box-shadow: 0 2px 4px var(--shadow);
+}
+
+.form-inputs {
+    position: relative;
+    margin-bottom: 8px;
+    
+}
+
+.form-inputs label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight:lighter;
+    color: var(--blu-btn-color);
+}
+
+.form-inputs input {
+    width: 95%;
+    padding: 18px 0 18px 18px;
+    border-radius: 5px;
+    border: 2px solid var(--shadow);
+    background: var(--bg-section-color);
+    
+}
+
+.form-inputs input:after {
+
+    background: var(--bg-section-color);
+    
+}
+.form-inputs ::placeholder {
+    font-weight:200;
+    color: var(--sh);
+    
+}
+
+.toggle-password {
+  position: absolute;
+    right: 9px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--sh);
+    font-size: 18px;
+    padding: 15px;
+}
+
+
+.form-button {
+    background-color:var(--blu-btn-color);
+    color: var(--bg-section-color);
+    padding: 18px;
+    border: none;
+    border-radius: 4px;
+    min-width: 470px;
+    font-size: 16px;
+    margin-top: 30px;
+    cursor: pointer;
+    
+}
+
+.form-button:hover {
+    background-color: var(--blu-btn-color);
+    
+}
+
+.image-container img {
+    max-width: 90%;
+}
+
+p{
+    margin : 35px 0 20px 0;
+    text-align: center;
+}
+
+
+.error-message {
+    color: var(--error-red); 
+    font-size: 12px;
+    margin-top: 5px;
+}

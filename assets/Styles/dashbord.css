@@ -1,0 +1,137 @@
+/* ################# Dashboard Content ################# */
+.hidden{
+  display: none ;
+}
+
+.content {
+  display: block;
+  margin: 0 280px;
+  background-color: transparent;
+  height: 100vh;
+}
+
+.content .title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: var(--blk-txt);
+}
+
+.content .title a {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--blu-btn-color);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.content .tasks {
+  display: block;
+  background-color: var(--bg-section-color);
+  border-radius: 30px;
+  padding: 45px;
+}
+
+.content .tasks .tasks-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--blk-txt);
+  margin-bottom: 20px;
+}
+
+.content .tasks .field-content {
+  display: flex;
+}
+
+.content .tasks .field {
+  font-size: 16px;
+  font-weight: 700;
+  width: 50%;
+  height: 48px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 2px solid var(--sh);
+  padding-left: 10px;
+  padding-right: 10px;
+  background: var(--bg-section-color);
+  color: var(--txt-color);
+}
+
+.content .tasks .main-btn {
+  font-size: 16px;
+  font-weight: 700;
+  height: 52px;
+  color: var(--bg-section-color);
+  background-color: var(--blu-btn-color);
+  padding: 0px 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.content .tasks .secondary-btn {
+  font-size: 16px;
+  font-weight: 700;
+  height: 52px;
+  color: var(--bg-section-color);
+  background-color: var(--grn-btn-color);
+  padding: 0px 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.content .tasks .remove-btn {
+  font-size: 16px;
+  font-weight: 700;
+  height: 52px;
+  color: var(--bg-section-color);
+  background-color: var(--red-btn-color);
+  padding: 0px 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.content .tasks .tasks-list {
+  display: block;
+  width: 100%;
+}
+
+.content .tasks .tasks-list .task-card {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(160, 146, 146, 0.25),
+    0 6px 20px rgba(160, 146, 146, 0.25);
+  padding: 28px;
+  background-color: var(--bg-section-color);
+  margin-top: 6px;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content .tasks .task-card .task-text {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--txt-color);
+}
+
+.content .tasks .task-card .task-text-done {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--txt-color);
+  text-decoration: line-through;
+}
+
+#task-date {
+  margin-left: 30px;
+}
+
+/* ################# End Dashboard Content ################# */
